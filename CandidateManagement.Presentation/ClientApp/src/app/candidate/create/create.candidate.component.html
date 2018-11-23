@@ -1,0 +1,49 @@
+<div class="col-md-4">
+  <form #candidateCreateForm="ngForm" class="form-group" autocomplete="off" (ngSubmit)="submitData(_candidate)">
+    <div class="form-group">
+      <label for="surName">Surname</label>
+      <input name="surName" id="surName" type="text" class="form-control" placeholder="surName" [(ngModel)]="_candidate.surName" />
+    </div>
+    <div class="form-group">
+      <label for="lastName">Lastname</label>
+      <input name="lastName" id="lastName" type="text" class="form-control" placeholder="lastName" [(ngModel)]="_candidate.lastName" />
+    </div>
+    <div class="form-group">
+      <label for="email">email</label>
+      <input name="email" id="email" type="text" class="form-control" placeholder="email" [(ngModel)]="_candidate.email" />
+    </div>
+    <div class="form-group">
+      <label for="phone">phone</label>
+      <input name="phone" id="phone" type="text" class="form-control" placeholder="phone" [(ngModel)]="_candidate.phone" />
+    </div>
+    <div class="form-group">
+      <label for="mobilePhone">mobilePhone</label>
+      <input name="mobilePhone" id="mobilePhone" type="text" class="form-control" placeholder="mobilePhone" [(ngModel)]="_candidate.mobilePhone" />
+    </div>
+    <div class="form-group">
+      <label for="cv">cv</label>
+      <input name="cv" id="cv" type="text" class="form-control" placeholder="cv" [(ngModel)]="_candidate.cv" />
+    </div>
+    <div class="form-group">
+      <label for="age">age</label>
+      <input name="age" id="age" type="number" class="form-control" placeholder="age" [(ngModel)]="_candidate.age" />
+    </div>
+    <div class="form-group">
+      <label for="gender">gender</label>
+      <input name="gender" id="gender" type="text" class="form-control" placeholder="gender" [(ngModel)]="_candidate.gender" />
+    </div>
+    <div class="form-group">
+      <label for="dateOfApplication">dateOfApplication</label>
+      <input name="dateOfApplication" id="dateOfApplication" type="date" class="form-control" placeholder="dateOfApplication" [(ngModel)]="_candidate.dateOfApplication" />
+    </div>
+    <div class="form-group">
+      <label for="dateOfFirstTakeIn">dateOfFirstTakeIn</label>
+      <input name="dateOfFirstTakeIn" id="dateOfFirstTakeIn" type="date" class="form-control" placeholder="dateOfFirstTakeIn" [(ngModel)]="_candidate.dateOfFirstTakeIn" />
+    </div>
+    <div class="form-group">
+      <label for="hasDriverLicense">hasDriverLicense</label>
+      <input name="hasDriverLicense" id="hasDriverLicense" type="checkbox" class="form-control" placeholder="hasDriverLicense" [(ngModel)]="_candidate.hasDriverLicense" />
+    </div>
+    <button name="btnCandidateCreate">Submit</button>
+  </form>
+</div>
