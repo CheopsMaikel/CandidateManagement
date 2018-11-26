@@ -5,7 +5,6 @@ import { HttpClientModule } from '@angular/common/http';
 import { RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
-import { NavMenuComponent } from './nav-menu/nav-menu.component';
 import { HomeComponent } from './home/home.component';
 
 import { FetchDataComponent } from './fetch-data/fetch-data.component';
@@ -13,12 +12,15 @@ import { CandidateService } from './candidate/candidate.service';
 import { CreateCandidateComponent } from './candidate/create/create.candidate.component';
 import { ReadCandidateComponent } from './candidate/read/read.candidate.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { HorNavMenuComponent } from './hor-nav-menu/hor-nav-menu.component';
+import { VerNavMenuComponent } from './ver-nav-menu/ver-nav-menu.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    NavMenuComponent,
+    HorNavMenuComponent,
+    VerNavMenuComponent,
     HomeComponent,
     DashboardComponent,
     CreateCandidateComponent,
