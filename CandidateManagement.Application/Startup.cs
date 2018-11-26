@@ -33,7 +33,7 @@ namespace CandidateManagement.Application
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
             app.UseCors(builder =>
-                builder.WithOrigins("https://localhost:44322")
+                builder.WithOrigins("https://localhost:44346")
                     .AllowAnyHeader()
                     .AllowAnyMethod());
 

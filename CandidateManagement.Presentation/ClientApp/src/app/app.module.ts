@@ -35,7 +35,7 @@ import { VerNavMenuComponent } from './ver-nav-menu/ver-nav-menu.component';
       { path: '', component: HomeComponent, pathMatch: 'full' },
       { path: 'candidate/create', component: CreateCandidateComponent },
       { path: 'dashboard', component: DashboardComponent },
-      //{ path: 'candidate/read', component: ReadCandidateComponent },
+      { path: 'candidate/read', component: ReadCandidateComponent },
       { path: 'fetch-data', component: FetchDataComponent },
     ])
   ],
